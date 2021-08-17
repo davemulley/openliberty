@@ -14,8 +14,6 @@
   <!-- Automatically expand WAR files and EAR files -->
   <applicationManager autoExpand="true" />
 
-  <applicationMonitor pollingRate="1000ms" />
-
-  <webApplication location="${project.name}.war" contextRoot="/" />
+  <applicationMonitor pollingRate="1000ms" /> 
 
 </server>
