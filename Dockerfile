@@ -15,5 +15,5 @@ COPY --from=builder --chown=1001:0 src/main/liberty/config/ /config/
 ENV PORT 9080
 
 EXPOSE 9080
-
+RUN features.sh
 RUN configure.sh
